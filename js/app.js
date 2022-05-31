@@ -70,5 +70,11 @@ const pages  =
             "detail": "HTML - My Portfolio",
             "image": "portfolio.png",
             "src": "https://github.com/koral-hizkiyau/My-Portfolio"
-            }
+            },
+            {
+                "_id": "5f5895aa48212a9c0d7ff827",
+                "detail": "C# Unity - Guess A Number Game",
+                "image": "guessNumberC.png",
+                "src": "https://github.com/koral-hizkiyau/Guess-A-Random-Number-Game"
+                }
     ]

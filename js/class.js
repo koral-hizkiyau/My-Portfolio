@@ -11,7 +11,7 @@ class Protfolio {
 
     render(){
         let newDiv = document.createElement("div");
-        newDiv.className = "col-lg-6 ";
+        newDiv.className = "clsRow col-lg-6";
         document.querySelector(this.parent).append(newDiv);
         newDiv.innerHTML += `
         <a target="_blank" href="${this.src}">
@@ -22,7 +22,6 @@ class Protfolio {
         </div>
         </a>
         `
-
     }
 
 }
