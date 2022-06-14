@@ -204,3 +204,19 @@ margin: auto;
     margin: auto;
     margin-left: 85%;}
   }
+
+.clsRow{
+    display: none;
+
+}
+  #id_row .clsRow:nth-child(1) {
+    display: block;
+}
+  #id_row .clsRow:nth-child(2) {
+    display: block;
+}
+#id_row .clsRow:nth-child(3) {
+    display: block;
+}  #id_row .clsRow:nth-child(4) {
+    display: block;
+}
