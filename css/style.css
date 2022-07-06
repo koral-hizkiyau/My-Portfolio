@@ -2,32 +2,32 @@
     background-color: #212529 !important;
 }
 
-.form-inline{
-    margin: auto;
-    margin-left: 280px;
-    margin-top: 50px;
-}
 
 
 #button2{
      display:inline-block;
-
+     justify-content: center;
+     margin: auto;
+     align-items: center;
+     font-size: 25px;
+    color: white;
+    background-color: #f23a3d;
 }
 
 
 #button2:hover{
-background-color: black !important; 
+background-color: black ; 
 }
 
 
   /* Style the button and place it in the middle of the container/image */
-  #imgButton{
-    position: absolute;
+  #imgButton,#imgButtonGit{
+    /* position: absolute;
     top: 65%;
     left: 25%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    color: #f23a3d;
+    -ms-transform: translate(-50%, -50%); */
+    color: white;
     font-weight: bold;
     font-size: 20px;
     padding: 12px 24px;
@@ -35,20 +35,23 @@ background-color: black !important;
     border-radius: 5px;
   }
   
-  #imgButton:hover {
+  #imgButton:hover ,#imgButtonGit:hover{
       background-color: black;
   }
 
+
   .text-block {
-    position: absolute;
+    /* position: absolute;
     bottom: 20px;
-    left: 40px;
-    background-color: black;
+    left: 40px; */
+    /* background-color: black; */
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 20px;
-    
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+
   }
 
   #myBtn {
@@ -121,45 +124,27 @@ margin: auto;
      background-color: black;
 }
 
-#welcome{
-    color: white;
-    font-size: 2.5rem;
-            font-weight: 300;
-            line-height: 1.2; margin-right: 500px;
-}
 
-#kh{
-    font-size:54px;
-    color: white
-}
-#fsd{
-    font-size:54px;
-    color:#f23a3d
-}
 #logos{
     margin-left: 200px;
 }
-#imgProfile{
-    position: absolute;
-    margin: auto;
-    margin-left: 69%;
-    margin-top: -18%;
-}
 
 
 
 
 
-@media only screen and (max-width: 992px) {
+ @media only screen and (max-width: 992px) {
+    .rounded{
+        width:300px;
+        height:180px
+    }
    #aboutText{
        margin-left: 0;
    }
    #lia{
     font-size: 15px; 
 }
-.form-inline{
-    margin-left: 0px;
-}
+
 #cen{
     margin-left: 0px;
     margin-right: 0px;
@@ -185,6 +170,13 @@ margin: auto;
 
 }
 #imgButton{
+    left: 28%;
+    font-size: 20px;
+    padding: 0px;
+    cursor: pointer;
+    border-radius: 0px;
+}
+#imgButtonGit{
     top: 65%;
     left: 28%;
     font-size: 20px;
@@ -202,21 +194,21 @@ margin: auto;
 #imgProfile{
     position: relative;
     margin: auto;
-    margin-left: 85%;}
+    margin-left: 85%;
+}
+#myBtn{
+    margin-right: 46px;
+}
   }
+ 
 
-.clsRow{
-    display: none;
 
-}
-  #id_row .clsRow:nth-child(1) {
-    display: block;
-}
-  #id_row .clsRow:nth-child(2) {
-    display: block;
-}
-#id_row .clsRow:nth-child(3) {
-    display: block;
-}  #id_row .clsRow:nth-child(4) {
-    display: block;
-}
+
+
+
+
+
+
+
+
+

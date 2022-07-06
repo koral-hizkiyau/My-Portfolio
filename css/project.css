@@ -1,0 +1,51 @@
+.clsRow {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 white;
+    transition: 0.3s;
+
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .clsRow:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+.clsRow{
+    display: none;
+
+}
+  #id_row .clsRow:nth-child(1) {
+    display: block;
+}
+
+  #id_row .clsRow:nth-child(2) {
+    display: block;
+}
+#id_row .clsRow:nth-child(3) {
+    display: block;
+}  #id_row .clsRow:nth-child(4) {
+    display: block;
+}
+
+
+  #id_row .clsRow:nth-child(9) #imgButtonGit {
+    display: none;
+}
+
+
+#id_row .clsRow:nth-child(3) #imgButton {
+    display: none;
+}
+
+#id_row .clsRow:nth-child(13) #imgButton {
+    display: none;
+}
+#id_row .clsRow:nth-child(8) #imgButton {
+  display: none;
+}
+
+.rounded{
+    width:450px;
+    height:250px;
+}
