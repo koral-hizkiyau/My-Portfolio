@@ -46,6 +46,33 @@
 }
 
 .rounded{
-    width:450px;
-    height:250px;
+  width: 600px;
+    height:300px;
+}
+
+.info {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  right: 6%;
+  top: 260px;
+}
+
+.info .info-hide {
+  visibility: hidden;
+  width: 500px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  right: 100%;
+}
+
+.info:hover .info-hide {
+  visibility: visible;
 }

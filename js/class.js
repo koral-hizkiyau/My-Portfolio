@@ -19,12 +19,13 @@ class Protfolio {
         newDiv.innerHTML += `  
         <div class="text-block"  style="color:white;"><b>${this.title}</b></div>
         <div class="row">
-        <div class="col-lg-6" style="display:flex;margin:auto;">
-        <img src="images/${this.image}" alt="${this.title}" class="rounded m-2"/></div>
-        <div class="col-lg-6">
-        <h4 style="color:white">Details:</h4>
-        <div style="color:white;margin-top:2%;font-size:18px">${this.detail}</div> 
-        <img src="images/icons/${this.icons}" class="py-3" alt="icon" width="70%" style="background-color="white;"/></div></div>
+        <div class="col-lg-12" style="display:flex;margin:auto;justify-content:center">
+        <img src="images/${this.image}" alt="${this.title}" class="rounded m-2"/>
+        <div class="info"><i class="fa fa-info-circle" style="font-size:36px"></i>
+        <span class="info-hide" style="color:white;margin-top:2%;font-size:18px">${this.detail}</span> </div>
+        </div>
+       
+        <img src="images/icons/${this.icons}" class="py-3" alt="icon" width="40%" style="margin:auto;"/></div>
         <div class="col-lg-8" style="display: flex;margin: auto;  justify-content: center;">
         <a target="_blank" href="${this.demo}">
         <button id="imgButton" class="btn btn-outline-light mr-2">View Site</button></a>
